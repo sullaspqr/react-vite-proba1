@@ -1,18 +1,14 @@
-import { useState } from 'react';
 import './App.css'
 import Hello from './Hello';
 import Hellop from './Hellop';
+import Counter from './Counter';
 function App() {
- const [count, setCount] = useState(0);
 
   return (
     <div>
-      <Hello name="Barba" age={count} />
-      <Hellop name="Borba" age={count} />
-        <button onClick={() => setCount(count + 1)}
-          className="btn btn-primary"
-          >
-          A számláló értéke:  {count}</button>
+      <Hello name="Barba" age={15} />
+      <Hellop name="Borba" age={18} />
+        <Counter />
     </div>
   )
 }
