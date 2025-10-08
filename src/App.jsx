@@ -12,7 +12,7 @@ function App() {
         <button onClick={() => setCount(count + 1)}
           className="btn btn-primary"
           >
-          A számláló értéke: {count}</button>
+          A számláló értéke:  {count}</button>
     </div>
   )
 }
